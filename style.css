@@ -1,8 +1,14 @@
-#image-bro {
-  align: left;
-  width: 15%;
-  height: auto;
+img {
+  display: block; /* Makes the image a block element */
+  margin-left: 0; /* Aligns the image to the left */
+  margin-right: auto; /* Ensures the right side has auto margin to maintain alignment */
+  width: 15%; /* Sets the width to 15% of its container */
+  height: auto; /* Keeps the aspect ratio intact */
+  border-radius: 50%; /* Makes the image round */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a 3D effect */
+  border: 2px solid #ccc; /* Optional: adds a border around the image */
 }
+
 body {
   font-family: "Menlo", monospace;
   margin: 5px;
