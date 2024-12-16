@@ -1,15 +1,24 @@
+.profile {
+  display: flex; /* Aligns the image and text horizontally */
+  align-items: center; /* Vertically centers the content */
+}
 img {
   display: block; /* Makes the image a block element */
   margin-left: 0; /* Aligns the image to the left */
-  margin-right: auto; /* Ensures the right side has auto margin to maintain alignment */
+  margin-right: 20px;
   width: 15%; /* Sets the width to 15% of its container */
   height: auto; /* Keeps the aspect ratio intact */
   border-radius: 50%; /* Makes the image round */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a 3D effect */
   border: 2px solid #ccc; /* Optional: adds a border around the image */
 }
+hr {
+  margin: 6px 0px;
+  border: 1px solid blue;
+}
 
 body {
+  background-color: #d6eaf8;
   font-family: "Inter";
   margin: 5px;
 }
@@ -26,7 +35,12 @@ td {
   padding: 10px 5px 10px 15px;
   text-align: left;
 }
-
+tbody > tr:nth-of-type(odd) {
+  background-color: #d1f2eb;
+}
+tbody > tr:nth-of-type(even) {
+  background-color: #fadbd8;
+}
 thead,
 tfoot {
   background-color: rgb(228 240 245);
