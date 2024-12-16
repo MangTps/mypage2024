@@ -1,0 +1,30 @@
+#image-bro {
+  align: left;
+  width: 15%;
+  height: auto;
+}
+body {
+  font-family: "Menlo", monospace;
+  margin: 5px;
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border: 3px solid grey;
+  border-radius: 16px;
+}
+
+th,
+td {
+  border: 1px solid rgb(160, 160, 160);
+  padding: 10px 5px 10px 15px;
+  text-align: left;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+i {
+  font-size: 14px;
+}
