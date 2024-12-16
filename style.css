@@ -1,6 +1,7 @@
 .profile {
   display: flex; /* Aligns the image and text horizontally */
   align-items: center; /* Vertically centers the content */
+  text-align: center;
 }
 img {
   display: block; /* Makes the image a block element */
